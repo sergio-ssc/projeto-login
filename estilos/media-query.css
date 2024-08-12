@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;  
+    }
+
+    @media screen and (min-width: 758px) and (max-width: 992px) {
+
+        body{background-image: linear-gradient( to top, rgba(255, 166, 0, 0.862), rgba(255, 94, 0, 0.862));
+
+        }
+
+        #login{
+            width: 80vw;
+            
+        }
+
+        #login > #imagem{
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+
+        #login > #formulario{
+            float: right;
+
+            width: 70%;
+
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+
+        body
+        {background-image: linear-gradient( to top, rgba(255, 166, 0, 0.862), rgba(255, 94, 0, 0.862));
+        }
+
+
+        #login{
+            width: 950px;
+        }
+
+        #login > #imagem{
+            float: left;
+            width: 50%;
+            height: 100%;
+          }
+
+
+         #login > #formulario{
+            float: right;
+            width: 50%;
+            height: 100%;
+          }
+    }
